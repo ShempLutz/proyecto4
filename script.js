@@ -59,7 +59,7 @@ function CierraCarrito() {
 }
 
 function AbreCompra() {
-	window.open("https://www.comprasguss.com/webpay.html","_self");
+	window.open("https://shemplutz.github.io/proyecto4/pay/payment.html","_self");
 }
 
 function BorraCarro() {
