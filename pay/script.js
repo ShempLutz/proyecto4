@@ -14,7 +14,7 @@ function Interno() {
 }
 
 function Redirigir() {
-  if(interno != 0) {
+  if(!body.classList.contains("interno")) {
     window.open("https://shemplutz.github.io/proyecto4/fin/felicidades.html","_self")
   } else {
     window.open("https://shemplutz.github.io/proyecto4/interm/redirigir.html","_self")
