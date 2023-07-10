@@ -1,0 +1,37 @@
+.main {
+  padding: 15px;
+}
+.credito {
+  font-size: 14px;
+  font: times new roman;
+}
+
+.consejo {
+  position: relative;
+  display: inline-block;
+  border-bottom: 1px dotted blue;
+}
+
+.consejo .consejotexto {
+  visibility: hidden;
+  width: 120px;
+  background-color: grey;
+  color: #fff;
+  text-align: center;
+  padding: 5px 0;
+  border-radius: 6px;
+  
+  position: absolute;
+  z-index: 1;
+}
+
+.consejo:hover .consejotexto {
+  visibility: visible;
+}
+
+.interno .credito {
+  visibility: visible;
+}
+.externo .credito {
+  visibility: hidden;
+}
